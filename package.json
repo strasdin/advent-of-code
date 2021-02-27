@@ -1,0 +1,17 @@
+{
+    "name": "advent-of-code",
+    "description": "",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/strasdin/advent-of-code/package.json"
+    },
+    "keywords": [],
+    "author": "",
+    "dependencies": {
+        "node-linq": "^0.0.5"
+    }
+}
