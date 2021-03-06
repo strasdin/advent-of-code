@@ -34,7 +34,6 @@ input.forEach(element => {
     });
 
     let vowelCount = 0;
-    
 
     niceChars.forEach(nice => {
         element.split('').forEach(spl => {
@@ -62,6 +61,5 @@ input.forEach(element => {
 function hasRepeatedLetters(str) {
     return (/([a-z])\1/i).test(str);
 }
-
 
 log(total);
