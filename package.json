@@ -12,6 +12,7 @@
     "keywords": [],
     "author": "",
     "dependencies": {
+        "md5": "^2.3.0",
         "node-linq": "^0.0.5"
     }
 }
