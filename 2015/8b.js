@@ -10,15 +10,23 @@ try {
 }
 
 let input = [];
+let totalLength = 0;
 
 data.split('\r\n').forEach(element => {
     let temp = element;
+    totalLength += element.length;
     input.push(temp);
     
 });
 
 let total = 0;
 
+input.forEach(element => {
+    total += letterLength(element);
+});
 
+function letterLength(word){
+    return JSON.stringify(word).length;
+}
 
-log(total);
+log(total - totalLength);
